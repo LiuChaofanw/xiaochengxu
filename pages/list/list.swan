@@ -1,0 +1,31 @@
+<view class="list">
+    <view class="search">
+        <view class="search_left">
+            <view class="time">
+                <view>入 08-17</view>
+                <view>离 08-18</view>
+            </view>
+            <view class="blue">1晚</view>
+        </view>
+        <view class="search_right">关键字/品牌/位置/酒店名</view>
+    </view>
+    <view class="sort border-bottom">
+        <text>推荐排序</text> |
+        <text>价格星级</text> |
+        <text>位置区域</text> |
+        <text>筛选</text>
+    </view>
+    <view class="shop_list">
+        <view class="shop">
+            <view>
+                <image src="../../images/image2.jpeg"></image>
+            </view>
+            <view>
+                <view>北京牛鲜花家庭旅馆</view>
+                <view><text class="blue">2.6分 老板热情</text>98条评论</view>
+                <view>距您8.4公里|靠近朱辛庄地铁站</view>
+                <view>经济型 <text>最新预订8小时前</text></view>
+            </view>
+        </view>
+    </view>
+</view>
