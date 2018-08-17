@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background-color: #eeeeee;
+}
+.home{
+    height: 100%;
+/*    position: relative;*/
+}
+.home>.home_img{
+    width: 100%;
+    height: 150px;
+}
+.content_wrap{
+    width: 100%;
+/*    padding-right: 13px;*/
+/*    position: absolute;
+    top:110px;
+    left: 0;*/
+    transform: translateY(-30px);
+}
+.home_content{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 10px;
+}
+.home_content>view{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+}
+.home_location{
+    justify-content: space-between;
+}
+.location_left{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.location_left>image{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.location_right{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    line-height: 25px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.location_right>image{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.home_date{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: #666666;
+    text-align: center;
+}
+.home_date .bold{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000;
+}
+.home_keyword text{
+    padding: 7px 0;
+    color: #999999;
+    font-size: 16px;
+}
+.home_search{
+    padding: 10px 0;
+}
+.search_btn{
+    height: 40px;
+    width: 100%;
+    background-color: #5f5aff;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 18px;
+}
+.get{
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -20px;
+}
+.get>image{
+    height: 60px;
+    width: 90%;
+    border-radius: 30px;
+}
+.text{
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+    margin: 15px 0;
+}
+.footer{
+    display: flex;
+}
+.footer image{
+    height: 35px;
+    width: 35px;
+}
+.footer view{
+    flex: 1 1 33.3%;
+    text-align: center;
+}
+.footer_text{
+    width: 60%;
+    margin: auto;
+}

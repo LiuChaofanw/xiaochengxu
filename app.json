@@ -1,0 +1,41 @@
+{
+    "debug": false,
+    "pages": [
+        "pages/home/home",
+        "pages/order/order",
+        "pages/my/my",
+        "pages/location/location"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "同程艺龙酒店预订11",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "black",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "images/ui.png",
+                "selectedIconPath": "images/ui.png"
+            },
+            {
+                "pagePath": "pages/order/order",
+                "text": "订单",
+                "iconPath": "images/net.png",
+                "selectedIconPath": "images/net.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "images/form.png",
+                "selectedIconPath": "images/form.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+<view class="home">
+    <image src="../../images/home.jpg" class="home_img"></image>
+    <view class="content_wrap">
+        <view class="home_content border-all">
+            <view class="home_location border-bottom">
+                <view class="location_left" bind:tap="goLocation">
+                    <image src="../../images/location.png"></image>
+                    <text>软件园南街</text>
+                </view>
+                <view class="location_right border-left">
+                    <image src="../../images/goto.png"></image>
+                    <text>我的位置</text>
+                </view>
+            </view>
+            <view class="home_date border-bottom">
+                <view class="date_come">
+                    <view>入住 今天</view>
+                    <view class="bold">08月17日</view>
+                </view>
+                <view class="date_total">共一晚</view>
+                <view class="date_go">
+                    <view>离店 明天</view>
+                    <view class="bold">08月18日</view>
+                </view>
+            </view>
+            <view class="home_keyword border-bottom">
+                <text> 关键字/酒店/地址</text>
+            </view>
+            <view class="home_search">
+                <view class="search_btn" bind:tap="goList">酒店查询</view>
+            </view>
+        </view>
+    </view>
+    <view class="img_container">
+        <view class="get">
+            <image src="../../images/image1.jpeg" bindtap="goList"></image>
+        </view>
+        <view class="text">
+            <text>— 订酒店 用艺龙 —</text>
+        </view>
+        <view class="footer">
+            <view>
+                <view><image src="../../images/canvas.png"></image></view>
+                <view class="footer_text">全球110万家酒店 </view>
+            </view>
+            <view>
+                <view><image src="../../images/canvas.png"></image></view>
+                <view class="footer_text">7*24小时全天候服务</view>
+            </view>
+            <view>
+                <view><image src="../../images/canvas.png"></image></view>
+                <view class="footer_text">到店无房承诺赔付</view>
+            </view>
+        </view>
+    </view>
+</view>

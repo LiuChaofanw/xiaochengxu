@@ -1,0 +1,14 @@
+<view class="my">
+    <view class="login">
+        <view class="btn">登录/注册</view>
+        <view class="text">登录享更多特权</view>
+    </view>
+    <view class="more">
+        <view>我的收藏
+            <image src="../../images/close.png"></image>
+        </view>
+        <view>意见反馈
+            <image src="../../images/close.png"></image>
+        </view>
+    </view>
+</view>

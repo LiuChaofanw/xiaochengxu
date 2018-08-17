@@ -1,0 +1,42 @@
+body{
+    font-size: 16px;
+    background-color: #ffffff;
+}
+.login{
+    background-color: #908eff;
+    color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.2);
+    margin: 20px auto;
+}
+.text{
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    font-size: 14px;
+}
+.more{
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    transform: translateY(-10px);
+    background-color: #ffffff;
+}
+.more image{
+    height: 20px;
+    width: 20px;
+    transform: rotate(90deg);
+    vertical-align: middle;
+    float: right;
+}
+.more>view{
+    height: 30px;
+    line-height: 30px;
+}
